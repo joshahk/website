@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    font-size: 1.5vw;
+    color: rgba(36, 57, 82, 1);
+    padding-bottom: 0%;
+}
+.brand-logo {
+    display: flex;
+    align-items: center;
+}
+.main-nav ul:hover{
+    background-color: rgb(62, 79, 125);
+
+    
+}
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(90, 112, 173, 1);
+    border-radius: 15;
+    list-style: none;    
+}
+.main-nav a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    padding: 0.4rem;
+}
+.main-nav a :hover{
+    color: rgb(255, 255, 255);
+}
+.main-header{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 00px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    
+
+}
+.main-container{
+    margin: 0 auto;
+    padding: 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+ #text2{
+    font-size: 10pt;
+
+  }
+.home-text{
+
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0%;
+}
+.homer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.home-text .text{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.home-text .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+.homer .title {
+    padding-top: 5vw;
+    padding-bottom: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+footer {
+    padding: 3px;
+    background-color: rgba(90, 112, 173, 1);
+    color: white;
+  }
+footer .footer-l{
+    text-align: left;
+}
+footer .footer-r{
+    text-align: right;
+}
+footer .footer-img{
+        padding: 25px 10vw;
+        transform: translateY(-10%);
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body{
+        line-height: 1.5;
+        font-family: 'Inter', sans-serif;
+    }
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+
+    }
+    ul{
+        list-style: none;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .family2-container{
+        transform: translateX(-3%);
+    
+        padding-bottom: 10%;
+        padding-right: 10%;
+        width: 100vw;
+    }
+    .family2-image{
+        float: left;
+        width: 60vw;
+        padding-right: 5%;
+      }
+      /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgba(90, 112, 173, 1); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    text-align: center;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .menu-icon {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+  #landing-container #text{
+    padding-left: 10%;
+    font-weight: 100;
+    font-size: 4vw;
+    max-width: 1400px;
+    font-weight: lighter;
+    position: absolute;
+    transform: translate(122%,-222%);
+
+
+}
+#landing-container #text2{
+  padding-left: 10%;
+  font-weight: 100;
+  font-size: 4vw;
+  max-width: 1400px;
+  font-weight: 100;
+  position: absolute;
+  transform: translateY(-150%);
+
+
+}
+.Family-Text{
+    padding-top: 8%;
+    padding-left: 6%;
+    font-family: playfair-display, serif;
+
+    font-weight: 400;
+    
+    font-style: normal;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

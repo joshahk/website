@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="index.html"><img style="width: 14vw;" src="images/about/logo-blue.svg" alt=""></a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="team.html">Team</a>
+  </div>
+  
+
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+            <!-- Use any element to open the sidenav -->
+            <header class="main-header">
+
+              <a class="brand-logo">
+                  <span style= "padding-right:8%;padding-left: 8%;" onclick="openNav()">
+                      <div class="menu-icon"></div>
+                      <div class="menu-icon"></div>
+                      <div class="menu-icon"></div></span>     
+                      <a href="index.html">
+                          <img src="images/logo.svg" style="width: 15vw;max-width: 300px;transform: translateX(-190%);">
+                      </a>   
+                   
+      
+  
+              </a>
+      
+              <nav class="main-nav">
+                  <ul>
+                      <a href="mailto:sunny@pooljones.com?subject=Customer Enquiry!">Contact Us</a>
+                  </ul>
+              </nav>
+          </header>
+      
+        </div>
+
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "27vw";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+       
+
+<div id="landing-container">
+    <img src="images/alt-top-background.png" alt="home-background" class="responsive">
+    <p id="text">
+      Our Team
+  </p>
+</div>
+<div class="narrow">
+<div style="text-align:center">
+  <p>Click to learn</p>
+</div>
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:rgb(255, 255, 255);">
+    <img style="width: 24vw;" src="images/about/Lamarque 1.png" alt="">
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:rgb(255, 255, 255);">
+
+    <img style="width: 16vw;" src="images/about/richard.png" alt="">
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:rgb(255, 255, 255);">
+    <img style="width: 24vw;" src="images/about/image3.png" alt="">
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:rgba(208, 208, 219, 0.31);">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Eric LaMarque </h2>
+  <p>Author of ‘Contemporary Trends in European Cooperative Banking’ and ‘Cooperative values and new management practices’<br>
+    President of the National Council of Universities for Management Sciences between 2011 and 2015<br>
+    Director of IAE Paris-Sorbonne<br>
+    President of the IAE France network<br>
+    2001 - Major of the national competition for the aggregation of universities in Management Sciences<br>
+    </p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:rgba(208, 208, 219, 0.31);">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+    <h2>Richard Pool Jones </h2>
+    <p>Mr. Pool-Jones’ transition from a top professional rugby player to a renowned financial advisor and broker is nothing short of extraordinary. With over 20 years of financial intermediary experience, Mr Pool-Jones has spearheaded and closed a plethora of deals across multiple industries including working with Meryl Lynch, DSOGroup, BancofBoston, BNP Paribas, MCS Groupe, Société Européenne De Recouvrement et d’Encaissement, iQera and Stade Français Paris Rugby Club. Mr Pool-Jones also engages in company advisory and has worked alongside Michael Dell in the past with regards to restructuring advisory.<br><br>
+      Prior to the founding of Brennus Corporate Finance Advisory, Mr Pool-Jones co-founded Alma Capital: an independent fund management company, Pierre Premiere Gestion: a real estate and fund management company, Brennus Immobilier: a company specializing in asset management, real estate transactions and property management. He is also president and shareholder of Optimisa: a printing service broker.<br><br>
+      Mr. Pool-Jones earned a B.Sc. in Economics from Cambridge University and began his professional career in rugby with Olympic Biarritz. Since then, he has one cap with the English National team and has won two championships with Stade Français Paris. <br><br>
+      </p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:rgba(208, 208, 219, 0.31);">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>David Stephens</h2>
+  <p>CEO: JTD Connections<br>
+    Senior Advisor: RSAcademics Ltd<br>
+    Investment Director (Private Equity): IBIS Capital<br>
+    Chartered Accountant and Management Consultant: Arthur Andersen<br>
+    Group Controller of Associate Companies & Minority Interest Businesses: WPP Group plc<br>
+    </p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+</div>
+<div class="foot">
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="transactions.html">Transactions</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Modern Slavery Act</a></li>
+                    <li><a href="#">Legal Documents</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+    
+                    <li><p><a href="mailto:sunny@pooljones.com?subject=Customer Enquiry!">Send email</a></p></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Telephone: +33 607725228</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="social-links">
+                    <img src="images/about/logo-blue.svg" alt="" style="
+                    width: 40vw;
+                    max-width: 400px;
+                ">
+                </div>
+            </div>
+
+</footer>
+</div>
+</body>
+</html> 

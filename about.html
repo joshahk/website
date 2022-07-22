@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+
+    <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+</head>
+
+<body>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="index.html"><img style="width: 14vw;" src="images/about/logo-blue.svg" alt=""></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="team.html">Team</a>
+      </div>
+      
+    
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+                <!-- Use any element to open the sidenav -->
+    
+                <header class="main-header">
+
+                    <a class="brand-logo">
+                        <span style= "padding-right:8%;padding-left: 8%;" onclick="openNav()">
+                            <div class="menu-icon"></div>
+                            <div class="menu-icon"></div>
+                            <div class="menu-icon"></div></span>     
+                            <a href="index.html">
+                                <img src="images/logo.svg" style="width: 15vw;max-width: 300px;transform: translateX(-190%);">
+                            </a>   
+                         
+            
+        
+                    </a>
+            
+                    <nav class="main-nav">
+                        <ul>
+                            <a href="mailto:sunny@pooljones.com?subject=Customer Enquiry!">Contact Us</a>
+                        </ul>
+                    </nav>
+                </header>
+            
+              </div>
+    
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "27vw";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+           
+    <div id="landing-container">
+        <img src="images/alt-top-background.png" alt="home-background" class="responsive">
+        <p id="text">About us
+        </p>
+
+    </div>
+    <div class="narrow">
+    <div class="home-text">
+        <p class="title">
+            Who we are
+        </p>
+    </div>
+    <div class="home-text">
+        <p class="text">
+            Brennus Investment Advisory is an 
+            independent M&A platform with expertise 
+            in restructuring and transformation
+        </p>
+    </div>
+
+    <div class="home-text">
+        <p class="text2">As a veteran adviser and broker to a vast number
+ of prominent groups and individuals, we have 
+ engrained in our culture the importance of 
+ creating and maintaining long-term relationships. 
+ Our network of carefully curated connections 
+ includes many of the most experienced people and 
+ organisations around the world.
+        </p>
+    </div>
+    <div class="home-text">
+        <p class="title">
+            Principles and Values
+        </p>
+    </div>
+    <div class="home-text">
+        <p class="text">
+            Our approach ensures that our colleagues 
+            operate with mutual respect, wherever they 
+            may be - and a commitment to promoting diverse 
+            thinking. We provide advice solely based on the 
+            long-term interests of our clients - with integrity, 
+            honesty and respect.
+        </p>
+    </div>
+    <div style="background-color:rgba(208, 208, 219, 0.31);height: 60vw;" id = "diversity-container" class="clearfix">
+        <h2 style="padding-left: 69% ;font-family: playfair-display, serif;font-weight: 400;font-style: normal;">Diversity and Inclusion</h2>
+        <p class="diversity-container" style="padding-top: 10%;">
+            </p><img class="diversity-image" src="images/about/Rectangle 1.png" alt="Pineapple">
+        We foster a culture of respect and accountability and look to attract, retain and develop individuals who share our principles, so they continue to inspire others within the workforce to represent our diverse range of clients we advise around the world.
+       </p>
+    </div>
+
+    <div style="background-color: white ;" class="family-containered">
+        <div class="narrow-content">
+        <div class="clearfix" id="family-container">
+            <img id="light-img"  src="images/about/richard.png" alt="lighthouse">
+            <h2 style="padding-left: 11.5%;padding-right: 15%;padding-top: 8%;padding-bottom: 1%;font-family: playfair-display, serif;font-weight: 400;font-style: normal;">Statement from Richard Pool-Jones</h2>
+            <p id="text">
+                “Brennus Corporate Finance Advisory goes the extra mile to advocate the exchange of ideas and relationship building among employees who identify as part of underrepresented groups. We are constantly growing as a diverse employee network and ensure that these groups will be supported and developed throughout their careers.”
+                <br>
+            </p>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+        <div class="clearfix">
+        </div>
+    <div style=" padding-left: 20%; padding-top: 10%; padding-bottom:5% ;" class="home-text">
+        <h2>Brennus is proud to support these UN development goals
+        </h2>
+    </div>
+
+<!-- Three columns -->
+<div class="row">
+    <div class="column" onclick="openTab('b1');" style="background:rgb(255, 255, 255);">
+      <img style="width: 10vw;" src="images/about/E_PRINT_05.jpg" alt="">
+    </div>
+    <div class="column" onclick="openTab('b2');" style="background:rgb(255, 255, 255);">
+  
+      <img style="width: 10vw;" src="images/about/E_WEB_08.png" alt="">
+    </div>
+    <div class="column" onclick="openTab('b3');" style="background:rgb(255, 255, 255);">
+      <img style="width: 10vw;" src="images/about/E_PRINT_10.jpg" alt="">
+    </div>
+    <div class="column" onclick="openTab('b4');" style="background:rgb(255, 255, 255);">
+        <img style="width: 10vw;" src="images/about/E_PRINT_13.jpg" alt="">
+      </div>
+  </div>
+  
+  <!-- Full-width columns: (hidden by default) -->
+  <div id="b1" class="containerTab" style="display:none;background:rgb(255, 255, 255);">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p><img style="width: 40vw;" src="images/about/E_SDG_action_card_twitter_5.jpg" alt=""></p>
+  </div>
+  
+  <div id="b2" class="containerTab" style="display:none;background:rgb(255, 255, 255)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p><img style="width: 40vw;" src="images/about/E_SDG_action_card_twitter_8.jpg" alt=""></p>
+  </div>
+  
+  <div id="b3" class="containerTab" style="display:none;background:rgb(255, 255, 255)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p><img style="width: 40vw;" src="images/about/E_SDG_action_card_twitter_10.jpg" alt=""></p>
+  </div>
+  <div id="b4" class="containerTab" style="display:none;background:rgb(255, 255, 255)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p><img style="width: 40vw;" src="images/about/E_SDG_action_card_twitter_13.jpg" alt=""></p>
+  </div>
+  
+  <script>
+  function openTab(tabName) {
+    var i, x;
+    x = document.getElementsByClassName("containerTab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+  </script>
+
+<div class="foot">
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h4>company</h4>
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="transactions.html">Transactions</a></li>
+                      <li><a href="team.html">Our Team</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                      <li><a href="#">Cookie Policy</a></li>
+                      <li><a href="#">Terms and Conditions</a></li>
+                      <li><a href="#">Modern Slavery Act</a></li>
+                      <li><a href="#">Legal Documents</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>Contact Us</h4>
+                  <ul>
+      
+                      <li><p><a href="mailto:sunny@pooljones.com?subject=Customer Enquiry!">Send email</a></p></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#">Telephone: +33 607725228</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <div class="social-links">
+                      <img src="images/about/logo-blue.svg" alt="" style="
+                      width: 40vw;
+                      max-width: 400px;
+                  ">
+                  </div>
+              </div>
+  
+  </footer>
+  </div>
+</body>
+</html>

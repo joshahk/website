@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="transactions.css">
+    <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+</head>
+
+<body>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="index.html"><img style="width: 14vw;" src="images/about/logo-blue.svg" alt=""></a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="team.html">Team</a>
+  </div>
+  
+
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+            <!-- Use any element to open the sidenav -->
+
+            <header class="main-header">
+
+              <a class="brand-logo">
+                  <span style= "padding-right:8%;padding-left: 8%;" onclick="openNav()">
+                      <div class="menu-icon"></div>
+                      <div class="menu-icon"></div>
+                      <div class="menu-icon"></div></span>     
+                      <a href="index.html">
+                          <img src="images/logo.svg" style="width: 15vw;max-width: 300px;transform: translateX(-190%);">
+                      </a>   
+                   
+      
+  
+              </a>
+      
+              <nav class="main-nav">
+                  <ul>
+                      <a href="mailto:sunny@pooljones.com?subject=Customer Enquiry!">Contact Us</a>
+                  </ul>
+              </nav>
+          </header>
+      
+        </div>
+
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "27vw";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+       
+<div id="landing-container-trans">
+    <img src="images/alt-top-background.png" alt="home-background" class="responsive">
+    <p id="text">Transactions
+    </p>
+
+</div>
+<!-- The grid: three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="transform: translateY(0%); background:rgb(255, 255, 255);">   <img style="width:10vw ;" src="images/about/logo5.png" alt=""></div>
+  <div class="column" onclick="openTab('b2');" style="background:rgb(255, 255, 255);">   <img  style="width:10vw ;" src="images/about/image 1.png" alt=""></div>
+  <div class="column" onclick="openTab('b3');" style="transform: translateY(-12%);background:rgb(255, 255, 255);">   <img style="width:15vw ;"  src="images/about/image 2.png" alt=""></div>
+  <div class="column" onclick="openTab('b4');" style="background:rgb(255, 255, 255);">   <img style="width:10vw ;"  src="images/about/image 3.png" alt=""></div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>MCS buys DSOgroup</h2>
+  <p>Advised French debt manager DSO Group SAS and MCS Groupe in their merger which will create a new entity with consolidated 2017 net revenues of more than €130 million</p>
+</div>
+
+<div id="b2" class="containerTab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Nikko Cordial buys Menzies Hotel Group</h2>
+  <p>Advised Nikko Cordial in their purchase of Menzies Hotel Group £120m From BancBoston Capital</p>
+</div>
+
+<div id="b3" class="containerTab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>DSOGroup acquires EFFICO capital</h2>
+  <p>Brokered deal involving BNP Paribas selling 75.5% of the capital of Effico, a subsidiary of BNP Paribas Personal Finance, to DSOgroup</p>
+</div>
+<div id="b4" class="containerTab" >
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Stade Francais Paris bailed and bought by Savare Family </h2>  
+  <p>	Richard Pool-Jones becomes the vice-president of Stade Français in 2011 after a rescue operation during which a deal was brokered for the Savare family to invest 11 million euros in the club thus saving the club from bankcruptcy.</p>
+</div>
+<script>
+  function openTab(tabName) {
+    var i, x;
+    x = document.getElementsByClassName("containerTab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+  </script>
+  
+<!-- Three columns -->
+<div class="row">
+  <div class="column2" onclick="openTab('b5');" style="background:rgb(255, 255, 255);">
+    <img style="width:15vw ;"  src="images/about/image 2.png" alt="">
+  </div>
+  <div class="column2" onclick="openTab('b6');" style="transform: translateY(0%);background:rgb(255, 255, 255);">
+    <img  style="width:15vw ;" src="images/about/image 7.png" alt="">
+  </div>
+  <div class="column2" onclick="openTab('b7');" style="background:rgb(255, 255, 255);">
+    <img style="width:15vw ;"  src="images/about/image 2.png" alt="">
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b5" class="containerTab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>DSO-Interactive buys Sedree</h2>
+  <p>DSO-Interactive buys Société Européenne De Recouvrement et d'Encaissement (Sedree) from its manager and sole shareholder</p>
+</div>
+
+<div id="b6" class="containerTab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>BancBoston Capital </h2>
+  <p>Advised Interim minority shareholders with BancofBoston to buy shares up to become majority shareholders</p>
+</div>
+
+<div id="b7" class="containerTab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>DSO acquires call centre in Mauritius</h2>
+  <p>Advised DSO GROUP in purchase of AXA's call centre in Mauritius with a buy side mandate for purchase of AXA Assistance Mauritius- subsidiary by iQera</p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+<div class="foot">
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="transactions.html">Transactions</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Modern Slavery Act</a></li>
+                    <li><a href="#">Legal Documents</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+    
+                    <li><p><a href="mailto:sunny@pooljones.com?subject=Customer Enquiry!">Send email</a></p></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Telephone: +33 607725228</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="social-links">
+                    <img src="images/about/logo-blue.svg" alt="" style="
+                    width: 40vw;
+                    max-width: 400px;
+                ">
+                </div>
+            </div>
+
+</footer>
+</div>
+</html>
+
+
+
